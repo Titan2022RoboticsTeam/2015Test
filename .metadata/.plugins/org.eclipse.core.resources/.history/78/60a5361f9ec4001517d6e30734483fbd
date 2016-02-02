@@ -1,0 +1,22 @@
+package org.usfirst.frc.team2022.robot.subsystems;
+
+import org.usfirst.frc.team2022.robot.Robot;
+
+import edu.wpi.first.wpilibj.PIDOutput;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
+public class PIDOutputRight implements PIDOutput{
+	TankDriveSubsystem tankDriveSubsystem = Robot.tankSubsystem;
+
+	@Override
+	public void pidWrite(double output) {
+		SmartDashboard.putNumber("Right Speed", tankDriveSubsystem.getRightSpeed());
+		tankDriveSubsystem.setRightSpeed(output);
+		SmartDashboard.putNumber("Right Speed", tankDriveSubsystem.getRightSpeed());
+		SmartDashboard.putNumber("Right Encoder Distance", tankDriveSubsystem.getRightEncoderDistance());
+		SmartDashboard.putNumber("Right P", tankDriveSubsystem.rightP);
+		SmartDashboard.putNumber("Right I", tankDriveSubsystem.rightI);
+		SmartDashboard.putNumber("Right D", tankDriveSubsystem.rightD);
+		SmartDashboard.putNumber("Right K", tankDriveSubsystem.rightK);
+	}
+}

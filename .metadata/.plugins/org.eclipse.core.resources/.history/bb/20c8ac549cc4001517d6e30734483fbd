@@ -1,0 +1,15 @@
+package org.usfirst.frc.team2022.robot.subsystems;
+
+import org.usfirst.frc.team2022.robot.Robot;
+
+import edu.wpi.first.wpilibj.PIDOutput;
+
+
+public class PIDOutputLeft implements PIDOutput{
+	TankDriveSubsystem tankDriveSubsystem = Robot.tankSubsystem;
+
+	@Override
+	public void pidWrite(double output) {
+		tankDriveSubsystem.setLeftSpeed(output);
+	}
+}

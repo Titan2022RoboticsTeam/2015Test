@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.IterativeRobot"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.TalonSRX"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.controllers.Xbox"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.JoystickButton"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.controllers.Attack3"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CANTalon"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Scheduler"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.livewindow.LiveWindow"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.commands.TankDriveCommand"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.RobotMap"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.commands.ForkliftCommand"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DoubleSolenoid"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Compressor"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.commands.CompressorCommand"/>
+<fullyQualifiedTypeName name="java.awt.Robot"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.subsystems.PneumaticSubsystem"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.subsystems.ForkliftSubsystem"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.OI"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.subsystems.TankDriveSubsystem"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Encoder"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.PIDController"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.PIDOutput"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.Robot"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2022.robot.commands.AutonomousCommand"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.networktables.NetworkTable"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Preferences"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.smartdashboard.SmartDashboard"/>
+</qualifiedTypeNameHistroy>
